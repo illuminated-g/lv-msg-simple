@@ -12,6 +12,9 @@
 	<Item Name="Callback Types" Type="Folder">
 		<Item Name="Message Handler Callback Type.vit" Type="VI" URL="../Message Handler Callback Type.vit"/>
 	</Item>
+	<Item Name="Utility" Type="Folder">
+		<Item Name="Enum to String.vim" Type="VI" URL="../Enum to String.vim"/>
+	</Item>
 	<Item Name="Endpoint.lvclass" Type="LVClass" URL="../Endpoint/Endpoint.lvclass"/>
 	<Item Name="Manager.lvclass" Type="LVClass" URL="../Manager/Manager.lvclass"/>
 	<Item Name="Message.lvclass" Type="LVClass" URL="../Message/Message.lvclass"/>
