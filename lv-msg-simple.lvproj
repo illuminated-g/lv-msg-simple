@@ -10,6 +10,14 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Demos" Type="Folder">
+			<Item Name="Chat Demo - LV Types" Type="Folder">
+				<Item Name="Launch New Client.vi" Type="VI" URL="../Demo/Chat Demo - LV Types/Launch New Client.vi"/>
+				<Item Name="Launch Server.vi" Type="VI" URL="../Demo/Chat Demo - LV Types/Launch Server.vi"/>
+				<Item Name="LV Chat Client.lvclass" Type="LVClass" URL="../Demo/Chat Demo - LV Types/LV Chat Client/LV Chat Client.lvclass"/>
+				<Item Name="LV Chat Server.lvclass" Type="LVClass" URL="../Demo/Chat Demo - LV Types/LV Chat Server/LV Chat Server.lvclass"/>
+			</Item>
+		</Item>
 		<Item Name="Test" Type="Folder">
 			<Item Name="Iteration Callback.vi" Type="VI" URL="../Stream-Simple-Msg/Test/Iteration Callback.vi"/>
 			<Item Name="Slide Callback.vi" Type="VI" URL="../Stream-Simple-Msg/Test/Slide Callback.vi"/>

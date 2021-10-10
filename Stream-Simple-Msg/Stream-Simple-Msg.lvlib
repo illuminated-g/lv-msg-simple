@@ -10,6 +10,7 @@
 
 </Property>
 	<Item Name="Callback Types" Type="Folder">
+		<Item Name="Connection Callback Type.vit" Type="VI" URL="../Connection Callback Type.vit"/>
 		<Item Name="Message Handler Callback Type.vit" Type="VI" URL="../Message Handler Callback Type.vit"/>
 	</Item>
 	<Item Name="Utility" Type="Folder">
