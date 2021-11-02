@@ -2,6 +2,7 @@
 <LVClass LVVersion="20008000">
 	<Property Name="NI.Lib.ContainingLib" Type="Str">Stream-Simple-Msg.lvlib</Property>
 	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../Stream-Simple-Msg.lvlib</Property>
+	<Property Name="NI.Lib.Description" Type="Str">Represents a single unit of data with a specified message ID string. The data can be any type that can safely be flattened to string and unflattened from string.</Property>
 	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*Y!!!*Q(C=\&gt;1^&lt;BJ2&amp;)&lt;B$]N&amp;7K1M)++EC]Y7;&amp;+ZGC8E&lt;#!&amp;AIJ9+&gt;D#+7CMU)$L3)ANH-)&lt;I%J0[=JC]M[&gt;#UF"'5O2YDP=-8TXZTS?'9V5WDPJ6OX6.L[\;W;T_8S_&lt;8@8WESVP&lt;3\&lt;A;&gt;6@6%GWO]?HZ?D=8[NP`M_GG\]XCT7D6D089D&lt;&lt;__'[`LP[M:UZJ_@(&gt;?X:[X7*`L8]&lt;\SJ@[[_XW]?FU/KWP_S_NV6N\;`^X7VR`"`ROLU]9K(M2U:-?&gt;+?&lt;ON*NEC&gt;ZEC&gt;ZEC&gt;ZE!&gt;ZE!&gt;ZE!?ZETOZETOZETOZE2OZE2OZE2NZ/=B&amp;,H+21UK+*Y734:-.EMF1F*Q34_**0)G(HUI]C3@R**\%QR1FHM34?"*0YG':%E`C34S**`'Q6:&amp;E/=DR*"[W6_!*0)%H]!1?3CLQ")#A7,"RM!E-"90"F]!4?!)08R6Y!E`A#4S"BW%&amp;HM!4?!*0Y'&amp;*O3J2..V"DI&gt;NZ(A=D_.R0)[(L?6Y()`D=4S/BX*S0)\(14A&amp;H=UBS&amp;HE4("_/"\(QR]Z(M@D?"S0YW'IX#%P6[&lt;4&gt;!=Z(M.D?!S0Y4%]&lt;#($9XA-D_%R0'QLQW.Y$)`B-4S5EO%R0)&lt;(A"B&amp;+3^D-W/B-=E)$!_@]L29O5N2*&amp;9/K4[]KA_F[M/G_B#J0BSK.VXV:KL?*.7,LXJ263_7[E61`?&gt;5U;I9V3+KC\O*/H)_U0@U$8V*H^)&lt;_I1_IA_\J8^ZYP&amp;YV/&amp;QU([`VW;TU8+ZV(1[6&gt;-UGEQG'IV''A[(F^@!"Y\,#[&amp;\,\U-&amp;HR`_(,`[=?XGY_&lt;T`?$B`@UHV`&lt;24`HN&gt;M`]'\5D@[MQT8["="X9`%!!!!!</Property>
 	<Property Name="NI.Lib.LocalName" Type="Str">Message</Property>
@@ -145,7 +146,6 @@
 	</Item>
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
-		<Item Name="Data Types" Type="Folder"/>
 		<Item Name="Create.vim" Type="VI" URL="../Create.vim">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%:!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$Z!=!!?!!!J&amp;V.U=G6B&lt;3V4;7VQ&lt;'5N48.H,GRW&lt;'FC$UVF=X.B:W5O&lt;(:D&lt;'&amp;T=Q!,476T=W&amp;H:3"P&gt;81!&amp;%!Q`````QJ.:8.T97&gt;F)%F%!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!!J!5Q2%982B!!"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!9!"Q!%!!1!#!)!!(A!!!U)!!!!!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!)1!!!!#A!!!!!!!!!!!!!!%!!!!!!"!!E!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
