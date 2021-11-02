@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-06-12 21:51:39" Modified_Date="2021-10-29 14:51:34" Creator="hal_dev" Comments="" ID="7d341b66add57c93548c32de9918ea04">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-06-12 21:51:39" Modified_Date="2021-11-02 13:03:34" Creator="hal_dev" Comments="" ID="9d3f0ffa3c44784e99394806e428ecfc">
   <Library_General_Settings>
     <Package_File_Name>IlluminatedG_lib_IG_Simple_Msg</Package_File_Name>
-    <Library_Version>1.0.0.8</Library_Version>
+    <Library_Version>1.0.0.11</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\build\ppl</Library_Output_Folder>
@@ -363,7 +363,7 @@ Examples for this library are provided in the &lt;i&gt;IG Simple Msg Examples&lt
         <Path>Stream-Simple-Msg\Message\Get Manager.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7FA901C1687BFED91042172EDA40BA0B</GUID>
+      <GUID>EDCBFDA1E17EB6912B62BE8A2F81116E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -496,7 +496,7 @@ Examples for this library are provided in the &lt;i&gt;IG Simple Msg Examples&lt
         <Path>Stream-Simple-Msg\Manager\Has Connection.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9190D7407DACBC60CA36182B215ED653</GUID>
+      <GUID>6CBE98A7ECDFBF2C396A028003B85451</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
