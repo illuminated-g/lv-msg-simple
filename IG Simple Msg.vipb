@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-06-12 21:51:39" Modified_Date="2021-11-02 13:03:34" Creator="hal_dev" Comments="" ID="9d3f0ffa3c44784e99394806e428ecfc">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-06-12 21:51:39" Modified_Date="2022-02-09 23:23:58" Creator="hal_dev" Comments="" ID="5a91817f9f75414d6186acb4ab080ab5">
   <Library_General_Settings>
     <Package_File_Name>IlluminatedG_lib_IG_Simple_Msg</Package_File_Name>
-    <Library_Version>1.0.0.11</Library_Version>
+    <Library_Version>1.0.0.23</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\build\ppl</Library_Output_Folder>
@@ -16,10 +16,7 @@
     <Target>LabVIEW</Target>
   </Library_General_Settings>
   <Advanced_Settings>
-    <Package_Dependencies>
-      <External_Dependencies>illuminatedg_lib_ig_stream_base &gt;= 0.1.0.12</External_Dependencies>
-      <Direct_Dependencies>illuminatedg_lib_ig_stream_base-0.1.0.12</Direct_Dependencies>
-    </Package_Dependencies>
+    <Package_Dependencies/>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
       <Post-Build_VI/>
@@ -118,9 +115,6 @@ Examples for this library are provided in the &lt;i&gt;IG Simple Msg Examples&lt
         <Namespace_Type>Prefix</Namespace_Type>
         <Namespace/>
       </Namespace_Overrides>
-      <Exclusions>
-        <Path>Examples</Path>
-      </Exclusions>
       <Place_Folder_Contents>
         <Path/>
       </Place_Folder_Contents>
@@ -180,6 +174,7 @@ Examples for this library are provided in the &lt;i&gt;IG Simple Msg Examples&lt
       <close_labview_before_install>false</close_labview_before_install>
       <restart_labview_after_install>false</restart_labview_after_install>
       <skip_mass_compile_after_install>false</skip_mass_compile_after_install>
+      <install_into_global_environment>false</install_into_global_environment>
     </LabVIEW>
     <VI_Docs>
       <Edit_VI_Description>false</Edit_VI_Description>
@@ -363,7 +358,7 @@ Examples for this library are provided in the &lt;i&gt;IG Simple Msg Examples&lt
         <Path>Stream-Simple-Msg\Message\Get Manager.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>EDCBFDA1E17EB6912B62BE8A2F81116E</GUID>
+      <GUID>CBDB5B113F7FEED70015CFE6B09C35BB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -443,20 +438,6 @@ Examples for this library are provided in the &lt;i&gt;IG Simple Msg Examples&lt
       <Items_Data>
         <Type>Item</Type>
         <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Broadcast.vim</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>4</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>Stream-Simple-Msg\Manager\Broadcast.vim</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
         <NameSub_Menu_Name>Add Connection Callback.vi</NameSub_Menu_Name>
         <Short_Name/>
         <is_Merge_VI>false</is_Merge_VI>
@@ -496,7 +477,7 @@ Examples for this library are provided in the &lt;i&gt;IG Simple Msg Examples&lt
         <Path>Stream-Simple-Msg\Manager\Has Connection.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6CBE98A7ECDFBF2C396A028003B85451</GUID>
+      <GUID>6422C8A8C6609E79A15A1E05C4FA23C8</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
