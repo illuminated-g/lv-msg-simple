@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-06-12 21:51:39" Modified_Date="2022-02-09 23:23:58" Creator="hal_dev" Comments="" ID="5a91817f9f75414d6186acb4ab080ab5">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-06-12 21:51:39" Modified_Date="2022-04-07 21:44:52" Creator="hal_dev" Comments="" ID="7f14ff970e3c74b4bc3e74933155f574">
   <Library_General_Settings>
     <Package_File_Name>IlluminatedG_lib_IG_Simple_Msg</Package_File_Name>
-    <Library_Version>1.0.0.23</Library_Version>
+    <Library_Version>1.0.0.24</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\build\ppl</Library_Output_Folder>
@@ -16,7 +16,10 @@
     <Target>LabVIEW</Target>
   </Library_General_Settings>
   <Advanced_Settings>
-    <Package_Dependencies/>
+    <Package_Dependencies>
+      <External_Dependencies>illuminatedg_lib_ig_stream_base &gt;= 1.1.0.31</External_Dependencies>
+      <Direct_Dependencies>illuminatedg_lib_ig_stream_base-1.1.0.31</Direct_Dependencies>
+    </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
       <Post-Build_VI/>
@@ -36,7 +39,7 @@ Examples for this library are provided in the &lt;i&gt;IG Simple Msg Examples&lt
       <Copyright/>
       <Packager>Derrick Bommarito</Packager>
       <URL>https://github.com/illuminated-g/lv-msg-simple</URL>
-      <Release_Notes>Documentation &amp; palette cleanup</Release_Notes>
+      <Release_Notes>- Message interfacing simplification for easier use with basic data types</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -358,7 +361,7 @@ Examples for this library are provided in the &lt;i&gt;IG Simple Msg Examples&lt
         <Path>Stream-Simple-Msg\Message\Get Manager.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CBDB5B113F7FEED70015CFE6B09C35BB</GUID>
+      <GUID>16DB701EFF113CE3EB614FB414A0B4E6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -477,7 +480,7 @@ Examples for this library are provided in the &lt;i&gt;IG Simple Msg Examples&lt
         <Path>Stream-Simple-Msg\Manager\Has Connection.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6422C8A8C6609E79A15A1E05C4FA23C8</GUID>
+      <GUID>A1C0A62F7BC3BF4A6BA717A713DF3205</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
