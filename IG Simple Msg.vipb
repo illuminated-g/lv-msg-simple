@@ -1,10 +1,10 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-06-12 21:51:39" Modified_Date="2022-04-13 13:31:57" Creator="hal_dev" Comments="" ID="a7e596842fd8b9e05a3c522798aeeddb">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-06-12 21:51:39" Modified_Date="2022-11-02 23:10:59" Creator="hal_dev" Comments="" ID="76ae5f837acf3675014b9f3d78964d57">
   <Library_General_Settings>
     <Package_File_Name>IlluminatedG_lib_IG_Simple_Msg</Package_File_Name>
-    <Library_Version>1.0.0.25</Library_Version>
+    <Library_Version>1.0.0.28</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
-    <Library_Output_Folder>..\build\ppl</Library_Output_Folder>
+    <Library_Output_Folder>..\vip</Library_Output_Folder>
     <Company_Name>IlluminatedG</Company_Name>
     <Library_Summary/>
     <Library_License>MIT</Library_License>
@@ -17,8 +17,10 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <External_Dependencies>illuminatedg_lib_ig_stream_base &gt;= 1.1.0.32</External_Dependencies>
-      <Direct_Dependencies>illuminatedg_lib_ig_stream_base-1.1.0.32</Direct_Dependencies>
+      <External_Dependencies>illuminatedg_lib_ig_stream_base &gt;= 1.2.0.44</External_Dependencies>
+      <External_Dependencies>illuminatedg_lib_ig_web&amp;crypto &gt;= 0.1.0.9</External_Dependencies>
+      <Direct_Dependencies>illuminatedg_lib_ig_stream_base-1.2.0.44</Direct_Dependencies>
+      <Direct_Dependencies>illuminatedg_lib_ig_web&amp;crypto-0.1.0.9</Direct_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
@@ -39,7 +41,9 @@ Examples for this library are provided in the &lt;i&gt;IG Simple Msg Examples&lt
       <Copyright/>
       <Packager>Derrick Bommarito</Packager>
       <URL>https://github.com/illuminated-g/lv-msg-simple</URL>
-      <Release_Notes>- Message interfacing simplification for easier use with basic data types</Release_Notes>
+      <Release_Notes>- Message interfacing simplification for easier use with basic data types
+- Moved flattening functionality from stream to messaging. Only support's LV's string flattening to remain "simple"
+- Added capability of sending and receiving data as JSON, especially useful when paired with WebSocket streams</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -208,20 +212,6 @@ Examples for this library are provided in the &lt;i&gt;IG Simple Msg Examples&lt
         <Synchronize_Directory_Path>.</Synchronize_Directory_Path>
       </Synchronization_Info>
       <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Create.vim</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>2</Row>
-          <Column>1</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>Stream-Simple-Msg\Message\Create.vim</Path>
-        <VI_Title/>
-      </Items_Data>
-      <Items_Data>
         <Type>Sub Palette</Type>
         <Sub_Palette_Index>1</Sub_Palette_Index>
         <NameSub_Menu_Name>Manager</NameSub_Menu_Name>
@@ -361,7 +351,7 @@ Examples for this library are provided in the &lt;i&gt;IG Simple Msg Examples&lt
         <Path>Stream-Simple-Msg\Message\Get Manager.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3ADE3E117452AED3C9FA231E12FDB772</GUID>
+      <GUID>464A8AACBFA1A5E11A5C4DF76541FEA2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -480,7 +470,7 @@ Examples for this library are provided in the &lt;i&gt;IG Simple Msg Examples&lt
         <Path>Stream-Simple-Msg\Manager\Has Connection.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>19C28E6325308B93016DBE259A53D40F</GUID>
+      <GUID>03AF26339746E22FD54C81BC557D1A1E</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
