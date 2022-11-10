@@ -18,6 +18,11 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Palettes" Type="Folder">
+			<Item Name="Messaging Endpoint Class.ctl" Type="VI" URL="../Palettes/Messaging Endpoint Class.ctl"/>
+			<Item Name="Messaging Manager Class.ctl" Type="VI" URL="../Palettes/Messaging Manager Class.ctl"/>
+			<Item Name="Messaging Message Class.ctl" Type="VI" URL="../Palettes/Messaging Message Class.ctl"/>
+		</Item>
 		<Item Name="Stream-Simple-Msg.lvlib" Type="Library" URL="../Stream-Simple-Msg/Stream-Simple-Msg.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
