@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-06-12 21:51:39" Modified_Date="2022-11-09 23:12:02" Creator="hal_dev" Comments="" ID="a8a679ca466e52241d83fc858fb11589">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-06-12 21:51:39" Modified_Date="2022-11-09 23:55:56" Creator="hal_dev" Comments="" ID="4e4e8eedadd6d28ac04380e0b06362e7">
   <Library_General_Settings>
     <Package_File_Name>IlluminatedG_lib_IG_Simple_Msg</Package_File_Name>
-    <Library_Version>1.0.0.34</Library_Version>
+    <Library_Version>1.0.0.35</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\vip</Library_Output_Folder>
@@ -379,7 +379,7 @@ Examples for this library are provided in the &lt;i&gt;IG Simple Msg Examples&lt
         <Path>Stream-Simple-Msg\Message\Unflatten Data.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>889E70A0A8BB6E87ADAA18794510FFEF</GUID>
+      <GUID>7CB7A3E06CFFA664D633B1AFD8D7460E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -498,7 +498,7 @@ Examples for this library are provided in the &lt;i&gt;IG Simple Msg Examples&lt
         <Path>Stream-Simple-Msg\Manager\Has Connection.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FFE39CB7CAC31A077616BD75AA14A287</GUID>
+      <GUID>A5AA284A45C29707668D233C9CD2A2B5</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -575,7 +575,7 @@ Examples for this library are provided in the &lt;i&gt;IG Simple Msg Examples&lt
         <Path>Stream-Simple-Msg\Format.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>516D0741A4C0E5D00310B68C2BA19DF5</GUID>
+      <GUID>8E00C664654DD97CFB6E53D2EEC6DEC8</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
