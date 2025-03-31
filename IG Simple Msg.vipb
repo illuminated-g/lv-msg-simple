@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-06-12 21:51:39" Modified_Date="2022-11-10 19:09:50" Creator="hal_dev" Comments="" ID="16a1889a0af99f8284f3ce8990429e07">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-06-12 21:51:39" Modified_Date="2023-08-17 08:52:15" Creator="hal_dev" Comments="" ID="a86455054131074f5250842b0c32a2e1">
   <Library_General_Settings>
     <Package_File_Name>IlluminatedG_lib_IG_Simple_Msg</Package_File_Name>
-    <Library_Version>1.0.0.36</Library_Version>
+    <Library_Version>1.0.1.37</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\vip</Library_Output_Folder>
@@ -41,7 +41,12 @@ Examples for this library are provided in the &lt;i&gt;IG Simple Msg Examples&lt
       <Copyright/>
       <Packager>Derrick Bommarito</Packager>
       <URL>https://github.com/illuminated-g/lv-msg-simple</URL>
-      <Release_Notes>- Message interfacing simplification for easier use with basic data types
+      <Release_Notes>1.0.1.36
+- Change Enum to String color to not look like a primitive, sorry Ryan!
+- Moved VIMs outside of library to be compatible with PPL building.
+
+1.0.0.35
+- Message interfacing simplification for easier use with basic data types
 - Moved flattening functionality from stream to messaging. Only support's LV's string flattening to remain "simple"
 - Added capability of sending and receiving data as JSON, especially useful when paired with WebSocket streams</Release_Notes>
     </Description>
@@ -122,6 +127,21 @@ Examples for this library are provided in the &lt;i&gt;IG Simple Msg Examples&lt
         <Namespace_Type>Prefix</Namespace_Type>
         <Namespace/>
       </Namespace_Overrides>
+      <Exclusions>
+        <Path>Stream-Simple-Msg/Stream Formatter</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Stream-Simple-Msg/Message__</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Stream-Simple-Msg/Message Info</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Stream-Simple-Msg/LabVIEW JSON</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>Stream-Simple-Msg/LabVIEW Binary</Path>
+      </Exclusions>
       <Place_Folder_Contents>
         <Path/>
       </Place_Folder_Contents>
@@ -379,7 +399,7 @@ Examples for this library are provided in the &lt;i&gt;IG Simple Msg Examples&lt
         <Path>Stream-Simple-Msg\Message\Unflatten Data.vim</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>462802CAFB77D4152A3DFE9992CD4C1D</GUID>
+      <GUID>9D510877B0994BDEEE23DD202BCD2FF7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -498,7 +518,7 @@ Examples for this library are provided in the &lt;i&gt;IG Simple Msg Examples&lt
         <Path>Stream-Simple-Msg\Manager\Has Connection.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>461B59B95362C55B2B2C38026E6F9792</GUID>
+      <GUID>EB14BA666C832F74AA46044CBADD6198</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -575,7 +595,7 @@ Examples for this library are provided in the &lt;i&gt;IG Simple Msg Examples&lt
         <Path>Stream-Simple-Msg\Format.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C04A562DAF27F1F03961A5619ECF6360</GUID>
+      <GUID>D252261BECE3216523822F3CE7D875FC</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

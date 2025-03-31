@@ -42,11 +42,7 @@
 	<Item Name="Data Types" Type="Folder">
 		<Item Name="Format.ctl" Type="VI" URL="../Format.ctl"/>
 	</Item>
-	<Item Name="Utility" Type="Folder">
-		<Item Name="Enum to String.vim" Type="VI" URL="../Enum to String.vim"/>
-		<Item Name="Flatten to JSON.vim" Type="VI" URL="../Flatten to JSON.vim"/>
-		<Item Name="Unflatten from JSON.vim" Type="VI" URL="../Unflatten from JSON.vim"/>
-	</Item>
+	<Item Name="Utility" Type="Folder"/>
 	<Item Name="Endpoint.lvclass" Type="LVClass" URL="../Endpoint/Endpoint.lvclass"/>
 	<Item Name="Manager.lvclass" Type="LVClass" URL="../Manager/Manager.lvclass"/>
 	<Item Name="Message.lvclass" Type="LVClass" URL="../Message/Message.lvclass"/>

@@ -18,10 +18,21 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="deps" Type="Folder">
+			<Item Name="JSON.lvlib" Type="Library" URL="../../lv-web-crypto/lv-json/JSON/JSON.lvlib"/>
+			<Item Name="Stream.lvlib" Type="Library" URL="../../lv-stream/stream/Stream.lvlib"/>
+		</Item>
 		<Item Name="Palettes" Type="Folder">
 			<Item Name="Messaging Endpoint Class.ctl" Type="VI" URL="../Palettes/Messaging Endpoint Class.ctl"/>
 			<Item Name="Messaging Manager Class.ctl" Type="VI" URL="../Palettes/Messaging Manager Class.ctl"/>
 			<Item Name="Messaging Message Class.ctl" Type="VI" URL="../Palettes/Messaging Message Class.ctl"/>
+		</Item>
+		<Item Name="VIMs" Type="Folder">
+			<Item Name="Enum to String.vim" Type="VI" URL="../Stream-Simple-Msg/Enum to String.vim"/>
+			<Item Name="Flatten to JSON.vim" Type="VI" URL="../Stream-Simple-Msg/Flatten to JSON.vim"/>
+			<Item Name="Reply.vim" Type="VI" URL="../Stream-Simple-Msg/Message/Reply.vim"/>
+			<Item Name="Unflatten Data.vim" Type="VI" URL="../Stream-Simple-Msg/Message/Unflatten Data.vim"/>
+			<Item Name="Unflatten from JSON.vim" Type="VI" URL="../Stream-Simple-Msg/Unflatten from JSON.vim"/>
 		</Item>
 		<Item Name="Stream-Simple-Msg.lvlib" Type="Library" URL="../Stream-Simple-Msg/Stream-Simple-Msg.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -48,16 +59,15 @@
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
-				<Item Name="JSON.lvlib" Type="Library" URL="/&lt;vilib&gt;/IlluminatedG/lv-web-crypto/lv-json/JSON/JSON.lvlib"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
+				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
-				<Item Name="Stream.lvlib" Type="Library" URL="/&lt;vilib&gt;/IlluminatedG/lv-stream/Stream.lvlib"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
